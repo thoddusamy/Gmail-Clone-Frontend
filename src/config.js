@@ -1,3 +1,3 @@
 export const config = {
-    api: "http://localhost:4999"
+    api: "https://gmail-clone-reactapp.herokuapp.com"
 }
