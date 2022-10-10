@@ -1,0 +1,133 @@
+.MailCard_container {
+    display: flex;
+    align-items: center;
+    max-width: 1229px;
+    width: auto;
+    height: 40px;
+    background-color: #f3f6fb;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    position: relative;
+}
+
+.MailCard_container:hover {
+    box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 5px 0px;
+    cursor: pointer;
+}
+
+.MailCard_container .icons {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 13px;
+}
+
+.MailCard_container .icons .MuiSvgIcon-root {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.MailCard_container:hover .icons .MuiSvgIcon-root {
+    color: #5f6368;
+}
+
+.MailCard_container .icons input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}
+
+.MailCard_container .middle_section {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.MailCard_container .middle_section .titleText {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 0 0 3px;
+    min-width: 170px;
+    text-transform: capitalize;
+}
+
+.MailCard_container .middle_section .To {
+    font-size: 14px;
+    padding: 0 0 0 5px;
+}
+
+.MailCard_container .middle_section .trash .MuiSvgIcon-root {
+    font-size: 20px;
+    color: rgb(103, 103, 103);
+    margin-top: 4px;
+}
+
+.MailCard_container .middle_section .subjectText {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: auto;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.MailCard_container .middle_section .collectionName {
+    font-size: 11px;
+    background-color: rgb(220, 220, 220);
+    padding: 1px 5px;
+    margin-right: 6px;
+    border-radius: 5px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+.MailCard_container .middle_section .subjectText p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.MailCard_container .middle_section .mailDesc_text {
+    font-size: 14px;
+    color: #5f6368;
+    width: 605px;
+}
+
+.MailCard_container .middle_section .mailDesc_text p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.MailCard_container .middle_section .timeText {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    text-align: end;
+    width: 120px;
+    font-size: 12px;
+    padding: 10px 15px 10px 0;
+    color: #5f6368;
+    white-space: nowrap;
+    margin: 0 0 0 35px;
+}
+
+.MailCard_container .hoverIcons_right {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: none;
+    padding: 2px 5px 0 0;
+}
+
+.MailCard_container .hoverIcons_right .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.MailCard_container:hover .hoverIcons_right {
+    display: block;
+    background-color: #f3f6fb;
+}

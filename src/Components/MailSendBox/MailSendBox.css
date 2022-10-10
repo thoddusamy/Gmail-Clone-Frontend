@@ -1,0 +1,218 @@
+.background_layout {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 60;
+}
+
+.mailSendBox__container {
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    z-index: 60;
+    bottom: 0;
+    right: 65px;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+
+#mailSendBoxCon__big {
+    width: 1225px;
+    height: 640px;
+    position: absolute;
+    z-index: 60;
+    top: 45px;
+    right: 150px;
+}
+
+.mailSendBox__container .sendBox_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f6fb;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.mailSendBox__container .sendBox_header .header_icons {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 17px 10px 0;
+}
+
+.mailSendBox__container .sendBox_header .headerText {
+    width: 100%;
+    padding: 10px 0 10px 17px;
+}
+
+.mailSendBox__container .sendBox_header .header_icons .MuiSvgIcon-root {
+    font-size: 18px;
+}
+
+.mailSendBox__container .sendBox_header .header_icons .MuiSvgIcon-root:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.mailSendBox__container .sendBox_header .header_icons .MuiSvgIcon-root:nth-child(2) {
+    font-size: 14px;
+}
+
+.mailSendBox__container .sendBox_body {
+    height: 56vh;
+    width: auto;
+    padding: 0 17px;
+}
+
+.mailSendBox__container .sendBox_body .inputFields {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 5px;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input .to {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    color: gray;
+    font-size: 14px;
+    display: none;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input a {
+    text-decoration: none;
+    color: gray;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input .cc {
+    position: absolute;
+    right: 30px;
+    font-size: 14px;
+    display: none;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input .bcc {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    display: none;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input a:hover {
+    text-decoration: underline;
+}
+
+.mailSendBox__container .sendBox_body .inputFields .sendTo_input input {
+    width: 100%;
+}
+
+.mailSendBox__container .sendBox_body .inputFields input {
+    border: none;
+    margin: 5px 0 0 0;
+    padding: 7px 0;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+
+.mailSendBox__container .sendBox_body .inputFields textarea {
+    width: 516px;
+    height: 320px;
+    border: none;
+    margin: 5px 0 0 0;
+    padding: 5px 0;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+}
+
+.mailSendBox__container .sendBox_footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px 15px;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn {
+    display: flex;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn button {
+    background-color: #0b57d0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn button:hover {
+    background-color: #1965df;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn button:nth-child(1) {
+    padding: 9px 18px;
+    border-right: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 15px;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn button:nth-child(2) {
+    padding: 0 8px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mailSendBox__container .sendBox_footer .sendBtn button:nth-child(2) .MuiSvgIcon-root {
+    font-size: 16px;
+    margin: 3px 3px 0 0;
+}
+
+.mailSendBox__container .sendBox_footer .footer_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mailSendBox__container .sendBox_footer .footer_icons .icons_left,
+.mailSendBox__container .sendBox_footer .footer_icons .icons_right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.mailSendBox__container .sendBox_footer .footer_icons .icons_left .MuiSvgIcon-root,
+.mailSendBox__container .sendBox_footer .footer_icons .icons_right .MuiSvgIcon-root {
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+
+.mailSendBox__container .sendBox_footer .footer_icons .icons_left .MuiSvgIcon-root:hover,
+.mailSendBox__container .sendBox_footer .footer_icons .icons_right .MuiSvgIcon-root:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+}
+
+.moreopts {
+    display: block;
+    transition: .01s all ease-in-out;
+}
+
+.lessopts {
+    display: none;
+    transition: .01s all ease-in-out;
+}

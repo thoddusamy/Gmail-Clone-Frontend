@@ -1,0 +1,17 @@
+.mainpage__cointainer {
+    display: flex;
+}
+
+.loading_text {
+    position: absolute;
+    top: 0;
+    left: 720px;
+    z-index: 100;
+    background-color: rgb(255, 245, 191);
+    padding: 5px 15px 7px 15px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1px;
+    border: 1px solid burlywood;
+    font-size: 14px;
+}

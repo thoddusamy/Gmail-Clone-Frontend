@@ -1,0 +1,130 @@
+.ScheduledMails__container {
+    height: 88.5vh;
+    position: absolute;
+    top: 67px;
+    left: 252px;
+    z-index: 51;
+    background-color: #fff;
+    /* background-color: bisque; */
+    border-radius: 15px;
+    transition: .1s all ease-in-out;
+    overflow: hidden;
+}
+
+.ScheduledSticky_top {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.bottom_icons .icons_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px 0 20px;
+}
+
+.bottom_icons .icons_section .iconSection_left,
+.bottom_icons .icons_section .iconSection_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.bottom_icons .icons_section .iconSection_left .checkbox_icon input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+}
+
+.bottom_icons .icons_section .iconSection_right {
+    padding: 0 12px 0 0;
+}
+
+.bottom_icons .icons_section .iconSection_left .MuiSvgIcon-root,
+.bottom_icons .icons_section .iconSection_right .MuiSvgIcon-root {
+    font-size: 18.5px;
+}
+
+.bottom_icons .icons_section .iconSection_right .splitPanemode_popupShedu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 190px;
+    height: 110px;
+    background-color: #fff;
+    position: absolute;
+    top: 35px;
+    right: 92px;
+    z-index: 10;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bottom_icons .icons_section .iconSection_right .splitPanemode_popupShedu p {
+    padding: 6.5px 0 6.5px 45px;
+    font-size: 14px;
+    width: 100%;
+    margin: 3px 0 0 0;
+}
+
+.bottom_icons .icons_section .iconSection_right .splitPanemode_popupShedu p:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.bottom_icons .iconButton_hoverEffect:hover {
+    background-color: rgb(238, 238, 238);
+    border-radius: 50%;
+}
+
+.schedule_message {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+    padding: 12px 0 12px 20px;
+    margin: 12px 0 40px 0;
+    background-color: rgb(244, 244, 244);
+    /* text-align: center; */
+    font-size: 14px;
+}
+
+.morePopupShedu {
+    background-color: #fff;
+    height: 110px;
+    width: 250px;
+    position: absolute;
+    top: 30px;
+    left: 110px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.morePopupShedu button {
+    background: transparent;
+    border: none;
+    text-align: start;
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px 50px;
+    font-size: 15px;
+}
+
+.morePopupShedu button:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.morePopupShedu hr {
+    height: 0.5px;
+    background-color: lightgray;
+    border: none;
+}
+
+.morePopupShedu p {
+    padding: 0 45px;
+    font-size: 13.5px;
+    font-style: italic;
+    margin-top: 10px;
+}

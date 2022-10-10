@@ -1,0 +1,225 @@
+.settings__container {
+    position: absolute;
+    z-index: 51;
+    top: 67px;
+    right: 55px;
+    background-color: #fff;
+    width: 300px;
+    height: 88.5vh;
+    border-radius: 15px;
+}
+
+.settings__container .quicksetting_top {
+    padding: 8px 7px 8px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__container .quicksetting_top>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__container .quicksetting_top>div p {
+    font-size: 17px;
+}
+
+.settings__container .quicksetting_top>button {
+    background: transparent;
+    border: 1.5px solid lightgray;
+    margin-top: 8px;
+    width: 95%;
+    padding: 8px 0;
+    font-size: 15px;
+    color: #1a73e8;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.settings__container .quicksetting_top>button:hover {
+    background-color: #f5f9ff;
+    cursor: pointer;
+}
+
+.settings__container .quicksettings_body__container {
+    max-height: 73vh;
+    overflow-y: auto;
+}
+
+.settings__container .newgmail_view__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 12px 20px 12px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__container .newgmail_view__box .MuiSvgIcon-root {
+    font-size: 20px;
+}
+
+.settings__container .newgmail_view__box p {
+    font-size: 13.5px;
+    margin-bottom: 5px;
+}
+
+.settings__container .newgmail_view__box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0b6ae6;
+    font-weight: 500;
+}
+
+.settings__container .newgmail_view__box a:hover {
+    background-color: #f5f9ff;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box {
+    padding: 15px 18px;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box>p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box .chatandmeet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box .chatandmeet p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box .chatandmeet a {
+    text-decoration: none;
+    color: #0b6ae6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box .chatandmeet a:hover {
+    background-color: #f5f9ff;
+}
+
+.settings__container .quicksettings_body__container .appsingmail_box .chatandmeet img {
+    width: 80px;
+    height: 50px;
+    padding: 0 5px 0 0;
+}
+
+.settings__container .quicksettings_body__container .density_box .radioBtns input[type=radio],
+.settings__container .quicksettings_body__container .inbox_type__box .radioBtns input[type=radio],
+.settings__container .quicksettings_body__container .reading_pane__box .radioBtns input[type=radio] {
+    width: 16px;
+    height: 16px;
+}
+
+.settings__container .quicksettings_body__container .density_box .radioBtns>div:nth-child(1),
+.settings__container .quicksettings_body__container .inbox_type__box .radioBtns>div:nth-child(1),
+.settings__container .quicksettings_body__container .reading_pane__box .radioBtns>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+}
+
+.settings__container .quicksettings_body__container .density_box,
+.settings__container .quicksettings_body__container .inbox_type__box,
+.settings__container .quicksettings_body__container .reading_pane__box {
+    padding: 15px 15px 5px 15px;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__container .quicksettings_body__container .density_box p,
+.settings__container .quicksettings_body__container .inbox_type__box p,
+.settings__container .quicksettings_body__container .reading_pane__box p,
+.settings__container .quicksettings_body__container .email_threading__box p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.settings__container .quicksettings_body__container .density_box .radioBtns,
+.settings__container .quicksettings_body__container .inbox_type__box .radioBtns,
+.settings__container .quicksettings_body__container .reading_pane__box .radioBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 5px 3px 10px;
+}
+
+.settings__container .quicksettings_body__container .density_box .radioBtns label,
+.settings__container .quicksettings_body__container .inbox_type__box .radioBtns label {
+    font-size: 15px;
+}
+
+.settings__container .quicksettings_body__container .density_box .radioBtns img {
+    width: 75px;
+    height: 32px;
+}
+
+.settings__container .quicksettings_body__container .theme_box {
+    padding: 17px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 5px 15px;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_heading p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_heading a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0b6ae6;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_heading a:hover {
+    background-color: #f5f9ff;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 20px;
+    row-gap: 8px;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_imgs img {
+    width: 58px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.settings__container .quicksettings_body__container .theme_box .theme_imgs img:hover {
+    cursor: pointer;
+}
+
+.settings__container .quicksettings_body__container .email_threading__box {
+    padding: 15px 15px 5px 15px;
+}
+
+.settings__container .quicksettings_body__container .email_threading__box div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+.settings__container .quicksettings_body__container .email_threading__box div .MuiSvgIcon-root {
+    font-size: 20px;
+}
